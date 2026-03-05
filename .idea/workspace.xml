@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ee8fa43-b53a-4bcf-a4c9-744e454173d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practise/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practise/Car.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,9 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.BankSystem.executor": "Run",
     "Application.CarApp.executor": "Run",
+    "Application.EmployeeSystem.executor": "Run",
     "Application.LibraryApp.executor": "Run",
     "Application.ShoppingApp.executor": "Run",
     "Application.Studentmain.executor": "Run",
@@ -77,7 +80,8 @@
       <updated>1772545813708</updated>
       <workItem from="1772545815171" duration="7000" />
       <workItem from="1772545839837" duration="9988000" />
-      <workItem from="1772641644916" duration="2065000" />
+      <workItem from="1772641644916" duration="3935000" />
+      <workItem from="1772720839475" duration="8892000" />
     </task>
     <servers />
   </component>
