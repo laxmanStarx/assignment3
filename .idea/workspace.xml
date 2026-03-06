@@ -42,6 +42,7 @@
     "Application.EmployeeSystem.executor": "Run",
     "Application.LibraryApp.executor": "Run",
     "Application.Main2.executor": "Run",
+    "Application.RideVechile.executor": "Run",
     "Application.ShoppingApp.executor": "Run",
     "Application.Studentmain.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
@@ -102,7 +103,7 @@
       <workItem from="1772545839837" duration="9988000" />
       <workItem from="1772641644916" duration="3935000" />
       <workItem from="1772720839475" duration="9781000" />
-      <workItem from="1772820168851" duration="638000" />
+      <workItem from="1772820168851" duration="3077000" />
     </task>
     <servers />
   </component>
