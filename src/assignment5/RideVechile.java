@@ -35,29 +35,33 @@ class BikeRide extends Ride{
     String rideDetails;
 
     long distanceTravelled;
-    int totalfare;
+    double totalfare;
+    long costperkm = 400;
 
     BikeRide(  String rideDetails,
     String passengerName,
-    long distanceTravelled,
-    int totalfare,int rideId){
+
+    int rideId){
         super(rideId, passengerName);
 
         this.rideDetails = rideDetails;
         this.passengerName = passengerName;
                 this.totalfare = totalfare;
-                this.distanceTravelled = distanceTravelled;
+
 
 
     }
 
     public void calculateFare(double distance){
+        totalfare = (long)(distance*costperkm);
         System.out.println("rideId: "+ rideId);
         System.out.println("passengerName: "+ passengerName);
 
-        System.out.println(distanceTravelled);
-        System.out.println(totalfare);
+
+
+        System.out.println("totalfare: "+totalfare );
         System.out.println("rideDetails: " + rideDetails);
+        System.out.println("distance: " + distance);
     }
 
 }
@@ -68,32 +72,37 @@ class CabRide extends Ride{
     String rideDetails;
 
     long distanceTravelled;
-    int totalfare;
+//    long totalfare = distanceTravelled*costperkm;
+    long costperkm = 40;
+    long totalfare = distanceTravelled*costperkm;
 
 
 
     CabRide(  String rideDetails,
                String passengerName,
-               long distanceTravelled,
-               int totalfare,int rideId){
+
+               int rideId){
         super(rideId, passengerName);
 
 //        this.rideId = rideId;
 //        this.passengerName = passengerName;
 
         this.rideDetails = rideDetails;
-        this.totalfare = totalfare;
-        this.distanceTravelled = distanceTravelled;
+
+
+
 
 
     }
 
     public void calculateFare(double distance){
+
+        totalfare = (long)(distance*costperkm);
         System.out.println("rideId: "+ rideId);
         System.out.println("passengerName: "+ passengerName);
 
-        System.out.println(distanceTravelled);
-        System.out.println(totalfare);
+        System.out.println("distance travelled "+ distance);
+        System.out.println( "total fare :"+ totalfare  );
         System.out.println("rideDetails: " + rideDetails);
     }
 
@@ -104,22 +113,23 @@ class CabRide extends Ride{
 class AutoRide extends Ride{
 
     String rideDetails;
-    String passengerName;
-    long distanceTravelled;
-    int totalfare;
+//    String passengerName;
+
+    double totalfare;
+    double costperkm = 320;
 
 
 
     AutoRide(  String rideDetails,
               String passengerName,
-              long distanceTravelled,
-              int totalfare,int rideId){
+
+               int rideId){
         super(rideId, passengerName);
 
         this.rideDetails = rideDetails;
         this.passengerName = passengerName;
-        this.totalfare = totalfare;
-        this.distanceTravelled = distanceTravelled;
+
+
 
 
     }
@@ -128,8 +138,8 @@ class AutoRide extends Ride{
         System.out.println("rideId: "+ rideId);
         System.out.println("passengerName: "+ passengerName);
         System.out.println("distance: "+ distance);
-        System.out.println(distanceTravelled);
-        System.out.println(totalfare);
+
+        System.out.println(totalfare = distance*costperkm);
         System.out.println("rideDetails: " + rideDetails);
     }
 
@@ -138,13 +148,13 @@ class AutoRide extends Ride{
 public class RideVechile {
 
     public static void main(String[] args) {
-        Ride r1 = new BikeRide("BikeRider","lakshman",60,600,2345);
-        Ride r2 = new CabRide("CabDriver","Ramesh",860,600,6890);
-        Ride r3 = new AutoRide("AutoDriver","Harita",560,500,5890);
+        Ride r1 = new BikeRide("BikeRider","lakshman",2345);
+        Ride r2 = new CabRide("CabDriver","Ramesh",6890);
+        Ride r3 = new AutoRide("AutoDriver","Harita",9087);
 
-        r1.calculateFare(6789);
+        r1.calculateFare(689);
         r2.calculateFare(7896);
-        r3.calculateFare(77897);
+        r3.calculateFare(777);
     }
 
 
