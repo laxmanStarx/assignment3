@@ -15,9 +15,15 @@ public class CityController {
         v2.soundHorn("beep beep ");
 
 
+        SmartRoom room = new SmartRoom();
+        room.pressWallSwitch();
+        room.pressWallSwitch();
+
+        room.partyMode();
+
+
 
 
     }
 }
-
 
