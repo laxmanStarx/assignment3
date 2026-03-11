@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8ee8fa43-b53a-4bcf-a4c9-744e454173d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assignment6/JavaCity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/assignment6/JavaCity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,14 +48,19 @@
     "Application.CityController.executor": "Run",
     "Application.CityPowerGridmain.executor": "Run",
     "Application.EmployeeSystem.executor": "Run",
+    "Application.JavaCity.executor": "Run",
     "Application.LibraryApp.executor": "Run",
     "Application.Main2.executor": "Run",
     "Application.OnlineFoodmain.executor": "Run",
+    "Application.Passbyvalues.executor": "Run",
     "Application.RideVechile.executor": "Run",
     "Application.ShoppingApp.executor": "Run",
     "Application.SmartHome.executor": "Run",
     "Application.Studentmain.executor": "Run",
+    "Application.TestArraywithSwitch.executor": "Run",
     "Application.Vehiclemain.executor": "Run",
+    "Application.passbyreferences.executor": "Run",
+    "Application.testOverriding.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
@@ -77,6 +81,19 @@
   }
 }]]></component>
   <component name="RunManager">
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="assignment5.Main2" />
+      <module name="Assignments" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="assignment5.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="assignment5.Main2" />
       <module name="Assignments" />
@@ -122,7 +139,9 @@
       <workItem from="1772947684668" duration="7039000" />
       <workItem from="1772964819638" duration="2415000" />
       <workItem from="1772975000551" duration="7551000" />
-      <workItem from="1772985289487" duration="6478000" />
+      <workItem from="1772985289487" duration="6660000" />
+      <workItem from="1773065424018" duration="5607000" />
+      <workItem from="1773237977173" duration="4392000" />
     </task>
     <servers />
   </component>
@@ -136,6 +155,11 @@
           <url>file://$PROJECT_DIR$/src/Main.java</url>
           <line>11</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/practise/TestArraywithSwitch.java</url>
+          <line>56</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/assignment6/Vehiclemain.java</url>
