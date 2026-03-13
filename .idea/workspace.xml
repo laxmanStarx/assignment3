@@ -47,6 +47,7 @@
     "Application.CarApp.executor": "Run",
     "Application.CityController.executor": "Run",
     "Application.CityPowerGridmain.executor": "Run",
+    "Application.EmployeeSalary.executor": "Run",
     "Application.EmployeeSystem.executor": "Run",
     "Application.JavaCity.executor": "Run",
     "Application.LibraryApp.executor": "Run",
@@ -142,6 +143,8 @@
       <workItem from="1772985289487" duration="6660000" />
       <workItem from="1773065424018" duration="5607000" />
       <workItem from="1773237977173" duration="4392000" />
+      <workItem from="1773252005820" duration="808000" />
+      <workItem from="1773421237397" duration="4098000" />
     </task>
     <servers />
   </component>
