@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8ee8fa43-b53a-4bcf-a4c9-744e454173d4" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/practiseTest/BankAccountmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiseTest/BankAccountmain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practiseTest/Electricitybillmain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practiseTest/Electricitybillmain.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +49,7 @@
     "Application.CarApp.executor": "Run",
     "Application.CityController.executor": "Run",
     "Application.CityPowerGridmain.executor": "Run",
+    "Application.Electricitybillmain.executor": "Run",
     "Application.EmployeeSalary.executor": "Run",
     "Application.EmployeeSystem.executor": "Run",
     "Application.JavaCity.executor": "Run",
@@ -147,7 +148,7 @@
       <workItem from="1773065424018" duration="5607000" />
       <workItem from="1773237977173" duration="4392000" />
       <workItem from="1773252005820" duration="808000" />
-      <workItem from="1773421237397" duration="9221000" />
+      <workItem from="1773421237397" duration="10470000" />
     </task>
     <servers />
   </component>
