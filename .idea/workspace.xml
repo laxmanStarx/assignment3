@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee8fa43-b53a-4bcf-a4c9-744e454173d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Loops/primeno.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pattern/rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pattern/rohmbus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pattern/square.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,6 +72,9 @@
     "Application.homework2loops.executor": "Run",
     "Application.passbyreferences.executor": "Run",
     "Application.primeno.executor": "Run",
+    "Application.rectangle.executor": "Run",
+    "Application.rohmbus.executor": "Run",
+    "Application.square.executor": "Run",
     "Application.testOverriding.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.MCP Project settings loaded": "true",
