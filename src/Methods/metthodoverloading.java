@@ -6,9 +6,19 @@ public class metthodoverloading {
         return result;
     }
 
+    static int multiply(int p, int q ){
+        int results = p*q;
+        return results;
+    }
+
     public static void main(String[] args){
 
-        float multiplication = multiply(20.90f, 80.9f);
+        float multiplications = multiply(20.90f, 80.9f);
+        System.out.println(multiplications );
+
+
+
+        int multiplication = multiply(20, 80);
         System.out.println(multiplication);
 
     }
