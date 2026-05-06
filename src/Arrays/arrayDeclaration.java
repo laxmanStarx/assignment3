@@ -10,8 +10,14 @@ public class arrayDeclaration {
         System.out.println(brr[1]);
 
         int n = brr.length;
-        for(int index = 0; index<=n-1; index++){
-            System.out.println(index);
+//        for(int index = 0; index<=n-1; index++){
+//            System.out.println(index);
+//        }
+
+        //for Each loop
+
+        for(int val: brr){
+            System.out.println(val);
         }
 
     }
