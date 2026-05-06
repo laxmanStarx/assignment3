@@ -11,7 +11,7 @@ public class arrayInput {
         int n = arr.length;
 
         for(int i  = 0; i<=n-1;i++){
-            System.out.println("Prvoide input for index"+ i);
+            System.out.println("Prvoide input for index "+ i);
             arr[i] = sc.nextInt();
 
         }
