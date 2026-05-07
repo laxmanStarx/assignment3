@@ -14,5 +14,9 @@ public class Task1 {
 
         String txts = "Please locate where 'locate' occurs!";
         System.out.println(txts.indexOf("locate"));
+
+        String firstName = "John ";
+        String lastName = "Doe";
+        System.out.println(firstName.concat(lastName));
     }
 }
