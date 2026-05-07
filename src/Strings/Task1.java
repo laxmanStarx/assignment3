@@ -9,5 +9,10 @@ public class Task1 {
         String Movie = "HaRRyPOTTER";
         System.out.println(txt.toUpperCase());
         System.out.println(Movie.toLowerCase());
+
+        //indexOf()
+
+        String txts = "Please locate where 'locate' occurs!";
+        System.out.println(txts.indexOf("locate"));
     }
 }
