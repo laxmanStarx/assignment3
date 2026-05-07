@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ee8fa43-b53a-4bcf-a4c9-744e454173d4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Arrays/maxElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Casting/WideningCasting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Strings/Task1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Arrays/arraymultiply.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Arrays/arraymultiply.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Casting/WideningCasting.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Casting/WideningCasting.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +65,7 @@
     "Application.SmartHome.executor": "Run",
     "Application.StudentResultmain.executor": "Run",
     "Application.Studentmain.executor": "Run",
+    "Application.Task1.executor": "Run",
     "Application.TestArraywithSwitch.executor": "Run",
     "Application.Vehiclemain.executor": "Run",
     "Application.WideningCasting.executor": "Run",

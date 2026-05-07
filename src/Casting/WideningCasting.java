@@ -9,6 +9,7 @@ public class WideningCasting {
 
         //NarrowCasting
         double myDoubles = 9.79d;
+        //narrowing casting
         int myInts = (int) myDoubles;
 
         System.out.println(myDoubles);
